@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #efeeee;
+    padding: 1rem;
+}
+
+#navbar {
+    list-style-type: none;
+    background-color: #999999;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    padding: 0.7rem;
+}
+
+#navbar > li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* #empty {
+    height: 1000vh;
+} */
