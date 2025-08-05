@@ -23,6 +23,24 @@ h1 {
     text-decoration: none;
 }
 
-/* #empty {
-    height: 1000vh;
-} */
+#about {
+    padding: 1rem;
+}
+
+.about-div {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+
+#profile-desc {
+    min-width: 200px;
+    width: 50%;
+    margin: auto;
+}
