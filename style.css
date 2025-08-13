@@ -50,17 +50,24 @@ h1 {
     margin: auto;
 }
 
+/* testing the nav bar navigation, delete when project is completed */
+/* #empty {
+    border: black 5px;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+} */
+
 #projects {
-    padding: 1rem;
+    padding: 0.5rem;
+    margin: 0 1rem;
     background-color: antiquewhite;
 }
 
 .projects-div {
-    /* background-color: orange; */
     margin: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -68,7 +75,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 calc(25% - 20px);
 }
 
 figcaption {
@@ -81,4 +87,22 @@ figcaption {
     background-color: black;
     width: 12rem;
     height: 200px;
+}
+
+@media screen and (max-width: 992px) {
+    .projects-div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects-div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .projects-div {
+        grid-template-columns: 1fr;
+    }
 }
