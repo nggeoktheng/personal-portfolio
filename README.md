@@ -1,10 +1,18 @@
 # personal-portfolio
 
+## Project Descriptions
+
+- Usage of semantic HTML, Flexbox and Grid in responsive layout
+
 ## What I learnt
 
 - Don't use percentage for div height to make it responsive because it will cause the div to overlap
 - Use calc() for flex-basis to make 4 items per row with a fixed gap of 20px
 - Change to use grid: Use grid for two-dimensional layouts to have more control over rows and columns
+
+## Notes to improve in the future
+
+- Update the project section with new projects
 
 ## Image Credits
 
