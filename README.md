@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-## Project Descriptions
+## Project Description
 
 - Usage of semantic HTML, Flexbox and Grid in responsive layout
 
